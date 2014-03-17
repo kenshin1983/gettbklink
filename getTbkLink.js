@@ -1,6 +1,6 @@
 var casper = require('casper').create();
-var username = 'kenshin1983';
-var password = '998877xxxx';
+var username = 'username';
+var password = '******';
 var itemLink = decodeURIComponent(casper.cli.args[0]);
 
 casper.start('http://www.alimama.com/member/login.htm?forward=http://u.alimama.com', function(){
